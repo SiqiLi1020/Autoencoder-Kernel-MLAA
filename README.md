@@ -4,7 +4,7 @@
 
 # Prerequisites
 
-Matlab, Python 3.7, PyTorch
+Matlab, Python, PyTorch
 
 # Instructions
 
@@ -14,3 +14,6 @@ Step 2. Dowload the packages 'PLOT_v1.2' and 'KER_v0.11' from https://wanglab.fa
 
 Step 3. Run test_recon_demo.m to get the different MLAA reconstruction results.
 
+# References
+
+Siqi Li and Guobao Wang. Modified Kernel MLAA Using Autoencoder for PET-enabled Dual-Energy CT (https://arxiv.org/abs/2010.07484) 
