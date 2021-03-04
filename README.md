@@ -1,11 +1,11 @@
 # Autoencoder-Kernel-MLAA
 
 
-Prerequisites
+# Prerequisites
 
 Matlab, Python 3.7, PyTorch
 
-Instructions
+# Instructions
 
 Step 1. Dowload the system matrix folder from https://drive.google.com/drive/folders/1rx_CsvE8D7N2HLML14VUsjNmG2sssSeK?usp=sharing
 
