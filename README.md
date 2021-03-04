@@ -14,6 +14,10 @@ Step 2. Dowload the packages 'PLOT_v1.2' and 'KER_v0.11' from https://wanglab.fa
 
 Step 3. Run test_recon_demo.m to get the different MLAA reconstruction results.
 
+# Note
+
+The trained feature maps by RED-CNN and Unet are provided in the foloder 'trained feature maps'. We will open the training code soon.
+
 # References
 
 Siqi Li and Guobao Wang. [Modified Kernel MLAA Using Autoencoder for PET-enabled Dual-Energy CT](https://arxiv.org/abs/2010.07484) arXiv preprint arXiv: 2010.07484.\
