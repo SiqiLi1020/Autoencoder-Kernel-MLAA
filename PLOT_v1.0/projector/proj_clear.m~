@@ -1,0 +1,25 @@
+function proj_clear(Gopt)
+%--------------------------------------------------------------------------
+% delete all temporal files 
+%
+% gbwang@ucdavis.edu (01-09-2013)
+%
+
+if ~isfield(Gopt,'mtype')
+    Gopt.mtype = 'sparse';
+end
+
+switch Gopt.mtype
+ 
+    case 'usc'
+        delete temp.image.usc;
+        delete temp.image.usc.forw;
+        delete temp.proj.usc;
+        delete temp.proj.usc.back;
+        
+    case 'zhou'
+        delete temp.image;
+        delete temp.image.forw;
+        delete temp.proj;
+        delete temp.proj.back;       
+end
