@@ -24,3 +24,4 @@ Siqi Li and Guobao Wang. [Modified Kernel MLAA Using Autoencoder for PET-enabled
 
 Guobao Wang. [PET-enabled dual-energy CT: image reconstruction and a proof-of-concept computer simulation study](https://iopscience.iop.org/article/10.1088/1361-6560/abc5ca) Physics in Medicine & Biology, 2020.
 
+# Con 
