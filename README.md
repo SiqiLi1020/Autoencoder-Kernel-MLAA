@@ -1,1 +1,1 @@
-# Modified-Kernel-MLAA-Using-Autoencoder-for-PET-enabled-Dual-Energy-CT
+# Autoencoder-Kernel-MLAA
