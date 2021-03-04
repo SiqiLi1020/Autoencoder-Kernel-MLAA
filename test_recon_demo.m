@@ -1,18 +1,26 @@
+% A testing demo: Modified Kernel MLAA using Autoencoder for PET-enabled Dual-Energy CT. 
+% The details  are described in
+% Siqi Li and Guobao Wang. "Modified Kernel MLAA using Autoencoder for PET-enabled Dual-Energy CT." arXiv preprint arXiv: https://arxiv.org/abs/2010.07484 (2020).
+%-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+% Programmer: Siqi Li and Guobao Wang, UC DAVIS.
+% Contact: sqlli@ucdavis.edu
+
+
 clc;
 clear;
-
 i = 1;
 
 % count level
 count = 5e6;
+
 % choose rectype 'mlaa','standard kernel mlaa','RED kernel mlaa','Unet kernel mlaa';
 rectype = 'Unet kernel mlaa';
 
 % initialization method
 initype = 'CT';
 
-run('D:/P-DECT/KER_v0.11/KER_v0.11/setup');  
-run('D:/P-DECT/PLOT_v1.2/setup');
+run('../KER_v0.11/KER_v0.11/setup');  
+run('../PLOT_v1.2/setup');
 addpath('utils');
 
 %% load data
