@@ -16,4 +16,6 @@ Step 3. Run test_recon_demo.m to get the different MLAA reconstruction results.
 
 # References
 
-Siqi Li and Guobao Wang. [Modified Kernel MLAA Using Autoencoder for PET-enabled Dual-Energy CT](https://arxiv.org/abs/2010.07484) 
+Siqi Li and Guobao Wang. [Modified Kernel MLAA Using Autoencoder for PET-enabled Dual-Energy CT](https://arxiv.org/abs/2010.07484) arXiv preprint arXiv: 2010.07484.\
+Guobao Wang. [PET-enabled dual-energy CT: image reconstruction and a proof-of-concept computer simulation study](https://iopscience.iop.org/article/10.1088/1361-6560/abc5ca) Physics in Medicine & Biology, 2020.
+
