@@ -20,7 +20,7 @@ rectype = 'Unet kernel mlaa';
 initype = 'CT';
 
 run('../KER_v0.11/KER_v0.11/setup');  
-run('../PLOT_v1.2/setup');
+run('../PLOT_v1.0/setup');
 addpath('utils');
 
 %% load data
