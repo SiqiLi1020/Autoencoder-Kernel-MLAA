@@ -28,5 +28,6 @@ Guobao Wang. [PET-enabled dual-energy CT: image reconstruction and a proof-of-co
 
 Please let me know if you have any question: sqlli@ucdavis.edu
 
-# Contact
+# License
 
+This project is licensed under the 3-Clause BSD License - see the [LICENSE](https://github.com/SiqiLi1020/Autoencoder-Kernel-MLAA/blob/main/LICENSE) file for details.
