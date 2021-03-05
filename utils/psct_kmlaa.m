@@ -123,9 +123,6 @@ for it = 1:maxit
     if Aopt.attnFlag 
         mi = ni.*li_emis;
         [u, V] = attn_tofml_sps(yi, mi, A, Aopt, u, ri, it_attn, li_attn, aa);
-%         u1 = K_CT * u;
-%         mse = 10*log10(sum((u1(:) * 10-u0(:)).^2)/sum(u0(:).^2));
-%         disp(sprintf('MSE %d', mse));
         li_attn = proj_forw(A, Aopt, u);
         ai = repmat(exp(-li_attn), [1 numbin]);
     end
