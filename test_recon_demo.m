@@ -19,8 +19,8 @@ rectype = 'Unet kernel mlaa';
 % initialization method
 initype = 'CT';
 
-run('../KER_v0.11/KER_v0.11/setup');  
-run('../PLOT_v1.0/setup');
+run('Your Path/KER_v0.11/setup');  
+run('Your Path/PLOT_v1.0/setup');
 addpath('utils');
 
 %% load data
@@ -120,13 +120,7 @@ K_Unet = buildSparseK(N, W);
 
 %% Synergistic reconstruction
 switch rectype
-    
-    case 'mlem'
-        Popt.savestep = 10;
-        a0 = exp(- proj_forw(G, Gopt, uinit) );  % attenuation factor
-        ai = repmat(a0,[1 Popt.prjsiz(3)]);
-        [x, out] = eml_dem(yi, ni.*ai(:), P, Popt, xinit(:), ri, 100);
-    
+
     case 'mlaa'
         [u, x, out] = psct_kmlaa(yi, ni, G, Gopt, uinit(:), P, Popt, xinit(:), ri, maxit);
         save(sprintf('result/xcat_proj%dm_rec/%s_%d',count/1e6,'mlaa', i),'out');
